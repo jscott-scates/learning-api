@@ -1,0 +1,37 @@
+{
+    "users": [
+      { "id": 1, "fullName": "Alice Johnson", "email": "alice.johnson@example.com", "cohort": "WebDev-2025" },
+      { "id": 2, "fullName": "Bob Smith", "email": "bob.smith@example.com", "cohort": "WebDev-2025" },
+      { "id": 3, "fullName": "Charlie Brown", "email": "charlie.brown@example.com", "cohort": "WebDev-2024" },
+      { "id": 4, "fullName": "Diana Prince", "email": "diana.prince@example.com", "cohort": "WebDev-2025" },
+      { "id": 5, "fullName": "Evan Thomas", "email": "evan.thomas@example.com", "cohort": "WebDev-2024" }
+    ],
+    "topics": [
+      { "id": 1, "name": "HTML Basics" },
+      { "id": 2, "name": "CSS Styling" },
+      { "id": 3, "name": "JavaScript Fundamentals" },
+      { "id": 4, "name": "Responsive Design" }
+    ],
+    "posts": [
+      { "id": 1, "title": "Introduction to HTML", "userID": 1, "body": "HTML is the structure of web pages.", "date": "2025-01-01", "topicId": 1 },
+      { "id": 2, "title": "HTML Tags Overview", "userID": 2, "body": "Understanding different tags is essential.", "date": "2025-01-02", "topicId": 1 },
+      { "id": 3, "title": "CSS Selectors Explained", "userID": 3, "body": "Selectors help style elements effectively.", "date": "2025-01-03", "topicId": 2 },
+      { "id": 4, "title": "Color and Backgrounds", "userID": 4, "body": "Adding visual appeal with CSS colors.", "date": "2025-01-04", "topicId": 2 },
+      { "id": 5, "title": "JavaScript Variables", "userID": 5, "body": "Variables store data for scripts.", "date": "2025-01-05", "topicId": 3 },
+      { "id": 6, "title": "JavaScript Functions", "userID": 1, "body": "Functions perform actions in JavaScript.", "date": "2025-01-06", "topicId": 3 },
+      { "id": 7, "title": "Responsive Design Principles", "userID": 2, "body": "Design for different devices effectively.", "date": "2025-01-07", "topicId": 4 },
+      { "id": 8, "title": "Using Media Queries", "userID": 3, "body": "Media queries adapt designs for devices.", "date": "2025-01-08", "topicId": 4 },
+      { "id": 9, "title": "Box Model Essentials", "userID": 4, "body": "Understanding the box model in CSS.", "date": "2025-01-09", "topicId": 3 },
+     
+    ],
+    "userLikes": [
+      { "id": 1, "userId": 1, "postId": 3 },
+      { "id": 2, "userId": 2, "postId": 5 },
+      { "id": 3, "userId": 3, "postId": 1 },
+      { "id": 4, "userId": 4, "postId": 6 },
+      { "id": 5, "userId": 5, "postId": 7 },
+      { "id": 6, "userId": 1, "postId": 9 },
+      { "id": 7, "userId": 3, "postId": 4 },
+      { "id": 8, "userId": 4, "postId": 8 }
+    ]
+  }
